@@ -1,0 +1,117 @@
+/* ===========================
+   CSS RESET
+=========================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===========================
+   BODY STYLING
+=========================== */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fc;
+  color: #5a5c69;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+/* ===========================
+   HEADINGS
+=========================== */
+
+h1, h2, h3, h4, h5, h6 {
+  color: #343a40;
+  margin-bottom: 10px;
+}
+
+/* ===========================
+   LINKS
+=========================== */
+
+a {
+  text-decoration: none;
+  color: #4e73df;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #2e59d9;
+}
+
+/* ===========================
+   BUTTON DEFAULT
+=========================== */
+
+button {
+  font-family: inherit;
+  border: none;
+  outline: none;
+}
+
+/* ===========================
+   INPUT DEFAULT
+=========================== */
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  outline: none;
+}
+
+/* ===========================
+   SCROLLBAR (Modern Look)
+=========================== */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4e73df;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2e59d9;
+}
+
+/* ===========================
+   UTILITY CLASSES
+=========================== */
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.shadow {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.rounded {
+  border-radius: 10px;
+}
